@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		8DD76F9F0486AA7600D96B5E /* AWiPhotoLibrary.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* AWiPhotoLibrary.1 */; };
+		BE10A1321171230E001DEC52 /* AWiPhotoLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE10A1311171230E001DEC52 /* AWiPhotoLibraryTests.m */; };
+		BE10A1351171236C001DEC52 /* AWiPhotoLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = BE10A1341171236C001DEC52 /* AWiPhotoLibrary.m */; };
+		BE10A14811712969001DEC52 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BE10A14511712969001DEC52 /* FMDatabase.m */; };
+		BE10A14911712969001DEC52 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BE10A14711712969001DEC52 /* FMResultSet.m */; };
+		BE10A16811712B35001DEC52 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE10A16711712B35001DEC52 /* libsqlite3.0.dylib */; };
+		BE10A29B11719582001DEC52 /* AWiPhotoEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BE10A29A11719582001DEC52 /* AWiPhotoEvent.m */; };
+		BE10A29E117195F9001DEC52 /* AWiPhotoDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = BE10A29D117195F9001DEC52 /* AWiPhotoDocument.m */; };
+		BE1FD286117BBD02009A9E46 /* AWiPhotoEvent+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1FD285117BBD02009A9E46 /* AWiPhotoEvent+Protected.m */; };
+		BE80EEB21173CB5400AA72B9 /* AWiPhotoLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = BE10A1331171236C001DEC52 /* AWiPhotoLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE80EEB31173CB5400AA72B9 /* AWiPhotoEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = BE10A29911719582001DEC52 /* AWiPhotoEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE80EEB41173CB5400AA72B9 /* AWiPhotoDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = BE10A29C117195F9001DEC52 /* AWiPhotoDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE80EEB51173CB7000AA72B9 /* AWiPhotoLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = BE10A1341171236C001DEC52 /* AWiPhotoLibrary.m */; };
+		BE80EEB61173CB7000AA72B9 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BE10A14511712969001DEC52 /* FMDatabase.m */; };
+		BE80EEB71173CB7000AA72B9 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BE10A14711712969001DEC52 /* FMResultSet.m */; };
+		BE80EEB81173CB7000AA72B9 /* AWiPhotoEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BE10A29A11719582001DEC52 /* AWiPhotoEvent.m */; };
+		BE80EEB91173CB7000AA72B9 /* AWiPhotoDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = BE10A29D117195F9001DEC52 /* AWiPhotoDocument.m */; };
+		BE80EEBA1173CB7C00AA72B9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE10A16711712B35001DEC52 /* libsqlite3.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F9F0486AA7600D96B5E /* AWiPhotoLibrary.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32A70AAB03705E1F00C91783 /* AWiPhotoLibrary_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWiPhotoLibrary_Prefix.pch; sourceTree = "<group>"; };
+		BE10A1311171230E001DEC52 /* AWiPhotoLibraryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWiPhotoLibraryTests.m; sourceTree = "<group>"; };
+		BE10A1331171236C001DEC52 /* AWiPhotoLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWiPhotoLibrary.h; sourceTree = "<group>"; };
+		BE10A1341171236C001DEC52 /* AWiPhotoLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWiPhotoLibrary.m; sourceTree = "<group>"; };
+		BE10A14411712969001DEC52 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		BE10A14511712969001DEC52 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		BE10A14611712969001DEC52 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		BE10A14711712969001DEC52 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		BE10A16711712B35001DEC52 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		BE10A29911719582001DEC52 /* AWiPhotoEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWiPhotoEvent.h; sourceTree = "<group>"; };
+		BE10A29A11719582001DEC52 /* AWiPhotoEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWiPhotoEvent.m; sourceTree = "<group>"; };
+		BE10A29C117195F9001DEC52 /* AWiPhotoDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWiPhotoDocument.h; sourceTree = "<group>"; };
+		BE10A29D117195F9001DEC52 /* AWiPhotoDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWiPhotoDocument.m; sourceTree = "<group>"; };
+		BE10A5821172D37D001DEC52 /* AWiPhotoLibrary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AWiPhotoLibrary-Info.plist"; sourceTree = "<group>"; };
+		BE10A5A71172D58E001DEC52 /* AWiPhotoLibraryTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AWiPhotoLibraryTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1FD284117BBD02009A9E46 /* AWiPhotoEvent+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWiPhotoEvent+Protected.h"; sourceTree = "<group>"; };
+		BE1FD285117BBD02009A9E46 /* AWiPhotoEvent+Protected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWiPhotoEvent+Protected.m"; sourceTree = "<group>"; };
+		BE80EEAF1173CB4000AA72B9 /* AWiPhotoLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWiPhotoLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859EA3029092ED04C91782 /* AWiPhotoLibrary.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AWiPhotoLibrary.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				BE10A16811712B35001DEC52 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE80EEAD1173CB4000AA72B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE80EEBA1173CB7C00AA72B9 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* AWiPhotoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				BE10A5231172CB57001DEC52 /* Resources */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = AWiPhotoLibrary;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32A70AAB03705E1F00C91783 /* AWiPhotoLibrary_Prefix.pch */,
+				BE10A1311171230E001DEC52 /* AWiPhotoLibraryTests.m */,
+				BE10A1331171236C001DEC52 /* AWiPhotoLibrary.h */,
+				BE10A1341171236C001DEC52 /* AWiPhotoLibrary.m */,
+				BE10A14411712969001DEC52 /* FMDatabase.h */,
+				BE10A14511712969001DEC52 /* FMDatabase.m */,
+				BE10A14611712969001DEC52 /* FMResultSet.h */,
+				BE10A14711712969001DEC52 /* FMResultSet.m */,
+				BE10A29911719582001DEC52 /* AWiPhotoEvent.h */,
+				BE10A29A11719582001DEC52 /* AWiPhotoEvent.m */,
+				BE1FD284117BBD02009A9E46 /* AWiPhotoEvent+Protected.h */,
+				BE1FD285117BBD02009A9E46 /* AWiPhotoEvent+Protected.m */,
+				BE10A29C117195F9001DEC52 /* AWiPhotoDocument.h */,
+				BE10A29D117195F9001DEC52 /* AWiPhotoDocument.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BE10A16711712B35001DEC52 /* libsqlite3.0.dylib */,
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE10A5A71172D58E001DEC52 /* AWiPhotoLibraryTests */,
+				BE80EEAF1173CB4000AA72B9 /* AWiPhotoLibrary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE10A5231172CB57001DEC52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE10A5821172D37D001DEC52 /* AWiPhotoLibrary-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859EA3029092ED04C91782 /* AWiPhotoLibrary.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BE80EEAA1173CB4000AA72B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE80EEB21173CB5400AA72B9 /* AWiPhotoLibrary.h in Headers */,
+				BE80EEB31173CB5400AA72B9 /* AWiPhotoEvent.h in Headers */,
+				BE80EEB41173CB5400AA72B9 /* AWiPhotoDocument.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* AWiPhotoLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "AWiPhotoLibraryTests" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWiPhotoLibraryTests;
+			productInstallPath = "$(HOME)/bin";
+			productName = AWiPhotoLibrary;
+			productReference = BE10A5A71172D58E001DEC52 /* AWiPhotoLibraryTests */;
+			productType = "com.apple.product-type.tool";
+		};
+		BE80EEAE1173CB4000AA72B9 /* AWiPhotoLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE80EEC41173CBA400AA72B9 /* Build configuration list for PBXNativeTarget "AWiPhotoLibrary" */;
+			buildPhases = (
+				BE80EEAA1173CB4000AA72B9 /* Headers */,
+				BE80EEAB1173CB4000AA72B9 /* Resources */,
+				BE80EEAC1173CB4000AA72B9 /* Sources */,
+				BE80EEAD1173CB4000AA72B9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWiPhotoLibrary;
+			productName = AWiPhotoLibrary;
+			productReference = BE80EEAF1173CB4000AA72B9 /* AWiPhotoLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "AWiPhotoLibrary" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* AWiPhotoLibrary */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE80EEAE1173CB4000AA72B9 /* AWiPhotoLibrary */,
+				8DD76F960486AA7600D96B5E /* AWiPhotoLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE80EEAB1173CB4000AA72B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE10A1321171230E001DEC52 /* AWiPhotoLibraryTests.m in Sources */,
+				BE10A1351171236C001DEC52 /* AWiPhotoLibrary.m in Sources */,
+				BE10A14811712969001DEC52 /* FMDatabase.m in Sources */,
+				BE10A14911712969001DEC52 /* FMResultSet.m in Sources */,
+				BE10A29B11719582001DEC52 /* AWiPhotoEvent.m in Sources */,
+				BE10A29E117195F9001DEC52 /* AWiPhotoDocument.m in Sources */,
+				BE1FD286117BBD02009A9E46 /* AWiPhotoEvent+Protected.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE80EEAC1173CB4000AA72B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE80EEB51173CB7000AA72B9 /* AWiPhotoLibrary.m in Sources */,
+				BE80EEB61173CB7000AA72B9 /* FMDatabase.m in Sources */,
+				BE80EEB71173CB7000AA72B9 /* FMResultSet.m in Sources */,
+				BE80EEB81173CB7000AA72B9 /* AWiPhotoEvent.m in Sources */,
+				BE80EEB91173CB7000AA72B9 /* AWiPhotoDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AWiPhotoLibrary_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = AWiPhotoLibraryTests;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AWiPhotoLibrary_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = AWiPhotoLibrary;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		BE80EEB01173CB4000AA72B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "AWiPhotoLibrary-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AWiPhotoLibrary;
+			};
+			name = Debug;
+		};
+		BE80EEB11173CB4000AA72B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "AWiPhotoLibrary-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AWiPhotoLibrary;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "AWiPhotoLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "AWiPhotoLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE80EEC41173CBA400AA72B9 /* Build configuration list for PBXNativeTarget "AWiPhotoLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE80EEB01173CB4000AA72B9 /* Debug */,
+				BE80EEB11173CB4000AA72B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
