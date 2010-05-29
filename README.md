@@ -8,4 +8,4 @@ Features
 - Load an iPhoto library
 - Get the "Events" for the current iPhoto library
 - Get the documents for the current event
- - A document is currently either a picture or video
+  - A document is currently either a picture or video
