@@ -3,7 +3,7 @@
 //  AWiPhotoController
 //
 //  Created by Alex Winston on 4/11/10.
-//  Copyright 2010 ComFrame Software Corporation. All rights reserved.
+//  Copyright 2010 Alex Winston. All rights reserved.
 //
 
 #import "AWiPhotoDocument.h"
